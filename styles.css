@@ -1,0 +1,74 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  
+}
+
+body {
+  background-color: oldlace;
+  font-family: 'Rubik Vinyl', cursive;
+  
+}
+
+h1 {
+  margin: 30px;
+  /* font-family: 'Lobster', cursive; */
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  /* color: #4ECCA3; */
+  
+}
+.btn{
+  margin-top: 20px;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  border:none;
+  background-color: rgb(113, 10, 10);
+  color: whitesmoke;
+
+
+}
+
+
+img {
+  width: 80%;
+}
+
+.display{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  border: 2px solid bisque;
+  position: fixed;
+  top: 40px;
+  width: 50vw;
+  height: 90vh;
+  left: 20px;
+  
+}
+.winner-image{
+  border: 2px solid black;
+  width: 25vw;
+  height: 40vh;
+}
+
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
